@@ -22,8 +22,8 @@ router.get("/search", (_req, res) => {
 
 router.get("/country/:country", MovieController.getMovieByCountry);
 router.get("/genre/:genre", MovieController.getMovieByGenre);
-router.get("/movies", MovieController.getMovies);
-router.get("/tv-shows", MovieController.getTvShows);
+router.get("/movie", MovieController.getMovies);
+router.get("/tv", MovieController.getTvShows);
 router.get("/top-imdb", MovieController.getMovieByTopIMDB);
 router.get("/info", MovieController.getMovieInfo);
 router.get("/episode-servers", MovieController.getEpisodeServers);
