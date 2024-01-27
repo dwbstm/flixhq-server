@@ -5,7 +5,7 @@ class ApiResponse {
     return res.status(200).jsonp({
       status: "success",
       msg: msg,
-      data: data,
+      data,
     });
   };
 
